@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Map
-        mapboxAccessToken={process.env.MAPBOX_TOKEN}
+        mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
         initialViewState={{
           longitude: -122.4,
           latitude: 37.8,
